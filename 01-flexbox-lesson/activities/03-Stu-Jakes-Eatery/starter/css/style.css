@@ -1,0 +1,115 @@
+.logo {
+  background: white;
+  height: 230px;
+  background-image: url("../images/jakes-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Navigation styles */
+.nav {
+  display: flex;
+  background-color: black;
+  padding: 20px;
+}
+
+.left, .center, .right {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left, .right {
+  width: 25%;
+}
+.left button, .right button {
+  color: black;
+  font-size: 16px;
+  padding: 15px;
+  width: 50%;
+}
+
+.left button {
+  background-color: skyblue;
+}
+
+.right button {
+  background-color: yellow;
+}
+
+.center {
+  width: 50%;
+}
+.center a {
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Column styles */
+.column {
+  display: flex;
+  height: 1200px;
+  width: 800px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.column .meal1, .column .meal2, .column .meal3 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.column .meal1 .text, .column .meal2 .text, .column .meal3 .text {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  padding: 20px 40px;
+  color: white;
+}
+.column .meal1 .text h1, .column .meal2 .text h1, .column .meal3 .text h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.column .meal1 .text p, .column .meal2 .text p, .column .meal3 .text p {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.column .meal1 {
+  background-image: url("../images/steak.png");
+}
+.column .meal2 {
+  background-image: url("../images/soup.png");
+}
+.column .meal3 {
+  background-image: url("../images/cheesecake.png");
+}
+
+/* Footer Styles */
+.footer {
+  display: flex;
+  background-color: #000000;
+  padding: 45px;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  padding: 20px 40px;
+  width: 10%;
+  text-align: center;
+}
+.footer .fb {
+  color: skyblue;
+}
+.footer .tw {
+  color: yellow;
+}
+.footer .ig {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
